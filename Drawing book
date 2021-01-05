@@ -1,0 +1,15 @@
+#Given and n & p, finds and prints the minimum number of pages that must be turned in order to arrive at page p. 
+
+def pageCount(n, p):
+    a = p//2 
+    
+    b = ((n)-p) // 2
+
+    if n == 2:
+        return 0
+    
+    if n - p == 1 and n % 2 == 0:
+        return (int (1))
+    
+    else:
+        return min(a,b)
