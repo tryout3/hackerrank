@@ -1,4 +1,4 @@
-#Given and n & p, finds and prints the minimum number of pages that must be turned in order to arrive at page p. 
+#Given and n & p, finds and prints the minimum number of pages that must be turned in order to arrive at page p. In PYTHON
 
 def pageCount(n, p):
     a = p//2 
